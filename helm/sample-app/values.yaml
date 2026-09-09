@@ -10,7 +10,7 @@ image:
   repository: 347347683771.dkr.ecr.ap-south-1.amazonaws.com/sample-app  # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "cf86316b6a6e4e7759044fd265c8741ae5e2d573"
+  tag: "6392b06b217f0838c86cd8d7738e17223b25c2ec"
 
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
